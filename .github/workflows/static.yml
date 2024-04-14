@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laguna Gri Gri</title>
+    <style>
+        /* Estilos CSS aquí */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        section h2 {
+            color: #007bff;
+        }
+        section p {
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+        .videos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .videos iframe {
+            width: 100%;
+            height: 200px;
+        }
+        #imagenes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .imagen {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+        .imagen img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Laguna Gri Gri</h1>
+        <nav>
+            <ul>
+                <li><a href="#informacion">Información</a></li>
+                <li><a href="#atracciones">Atracciones y Actividades</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="informacion">
+        <h2>Información General</h2>
+        <p>La Laguna Gri Gri es una hermosa laguna de agua salada ubicada en la provincia de María Trinidad Sánchez, República Dominicana. Rodeada de exuberante vegetación tropical y manglares, la Laguna Gri Gri es un destino popular tanto para turistas como para lugareños debido a su belleza natural y la variedad de actividades que ofrece.</p>
+        <p>La laguna es un refugio para diversas especies de aves y vida silvestre, y los visitantes pueden explorarla en botes o kayaks, navegando a través de los tranquilos canales rodeados de vegetación. Una de las características más destacadas es su cueva subterránea, donde los visitantes pueden aventurarse en un recorrido en bote por un estrecho pasaje rodeado de formaciones rocosas impresionantes y cuevas oscuras.</p>
+        <p>Además, la Laguna Gri Gri es conocida por su biodiversidad única. Algunas especies emblemáticas que se pueden encontrar en la zona incluyen el manatí antillano, el cocodrilo americano y una gran variedad de aves acuáticas. Los manglares circundantes ofrecen un hábitat vital para muchas especies marinas y son un punto de interés para los amantes de la naturaleza y la conservación.</p>
+    </section>
+
+    <section id="atracciones">
+        <h2>Atracciones y Actividades</h2>
+        <ul>
+            <li>Exploración en bote por los manglares</li>
+            <li>Visita a la cueva subterránea</li>
+            <li>Observación de aves</li>
+            <li>Natación en aguas tranquilas</li>
+            <!-- Agrega más actividades aquí -->
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <h2>Imágenes</h2>
+        <div id="imagenes">
+            <div class="imagen">
+                <img src="file:///C:/Users/centu/Downloads/imagen1.jpg" alt="Laguna Gri Gri - Imagen 1">
+            </div>
+            <div class="imagen">
+                <img src="file:///C:/Users/centu/Downloads/imagen2.jpg" alt="Laguna Gri Gri - Imagen 2">
+            </div>
+            <!-- Agrega más imágenes aquí -->
+        </div>
+    </section>
+
+    <section id="videos">
+        <h2>Videos</h2>
+        <div class="videos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_pdsAjZjzIQ" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/65r_xdeVqVk" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vI5e_9uDGos" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Para más información o para hacer reservas, contáctenos:</p>
+        <ul>
+            <li>Teléfono: +1 (809) 123-4567</li>
+            <li>Correo electrónico: info@lagunagrigri.com</li>
+            <li>Dirección: Calle Principal, Laguna Gri Gri, República Dominicana</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Derechos de autor © 2024 Rubén Daniel Novas</p>
+    </footer>
+</body>
+</html>
